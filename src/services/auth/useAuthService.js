@@ -1,13 +1,9 @@
 import axios from "axios";
-
-const URL = "https://api-atila.solucionsoft.com/v1/auth/login";
+import { API_URL } from "~/src/config/constants";
 
 const login = async (data) => {
   try {
-    const response = await axios.post(URL, {
-      username: "atila",
-      password: "12345678",
-    });
+    const response = await axios.post(`${API_URL}/auth/login`, data);
     return response;
   } catch (error) {
     console.log(error);
