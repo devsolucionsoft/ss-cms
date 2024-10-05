@@ -1,10 +1,7 @@
 <template>
-  <div>
-    <App />
-    <!-- <NuxtWelcome /> -->
-  </div>
+    <MainLayout />
 </template>
 <script setup>
 
-import App from "./src/pages/App.vue";
+import MainLayout from "./layouts/MainLayout.vue";
 </script>
