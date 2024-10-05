@@ -1,7 +1,6 @@
 <template>
   <div>
     <App />
-    <!-- <NuxtWelcome /> -->
   </div>
 </template>
 <script setup>
